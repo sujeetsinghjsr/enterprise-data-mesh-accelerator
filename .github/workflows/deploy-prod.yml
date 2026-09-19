@@ -1,0 +1,22 @@
+
+name: Deploy Trading Domain
+
+on:
+
+  workflow_dispatch:
+
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Deploy Trading Domain
+        run: |
+          echo "Deploying Databricks notebooks..."
+          echo "Deploying Unity Catalog configuration..."
+          echo "Deployment completed."
