@@ -1,0 +1,6 @@
+{
+  "environment": "Production",
+  "catalog": "trading_prod",
+  "schema": "trading",
+  "storage": "abfss://prod@storage.dfs.core.windows.net"
+}
