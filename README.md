@@ -56,13 +56,14 @@ This repository demonstrates those enterprise implementation patterns.
 ## Implemented Data Engineering Features
 
 - Trading Domain
-- Bronze ingestion pipeline
-- Silver transformation pipeline
+- Bronze Databricks notebook
+- Silver Databricks notebook
+- Gold Databricks notebook
 - Delta Lake architecture
+- Unity Catalog design
+- Environment-specific configurations
 - Partitioned storage
-- Reusable Data Quality framework
-- Trade lifecycle business rules
-- Enterprise pipeline documentation
+- Enterprise workspace structure
 
 ---
 
