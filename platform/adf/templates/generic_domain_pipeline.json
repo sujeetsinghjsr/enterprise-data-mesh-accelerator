@@ -1,0 +1,19 @@
+{
+  "name": "GenericDomainPipeline",
+  "properties": {
+    "activities": [
+      {
+        "name": "IngestBronze",
+        "type": "DatabricksNotebook"
+      },
+      {
+        "name": "TransformSilver",
+        "type": "DatabricksNotebook"
+      },
+      {
+        "name": "PublishGold",
+        "type": "DatabricksNotebook"
+      }
+    ]
+  }
+}
