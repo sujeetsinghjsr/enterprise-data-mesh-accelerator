@@ -55,12 +55,14 @@ This repository demonstrates those enterprise implementation patterns.
 ---
 ## Implemented Data Engineering Features
 
-- Trading domain with realistic trade data
-- PySpark Bronze ingestion pipeline
-- Delta Lake output
+- Trading Domain
+- Bronze ingestion pipeline
+- Silver transformation pipeline
+- Delta Lake architecture
 - Partitioned storage
-- Audit timestamp generation
-- Enterprise Lakehouse architecture
+- Reusable Data Quality framework
+- Trade lifecycle business rules
+- Enterprise pipeline documentation
 
 ---
 
