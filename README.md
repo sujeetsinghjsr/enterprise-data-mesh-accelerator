@@ -168,3 +168,16 @@ The case study demonstrates:
 - Governance
 - Success metrics
 - Interview walkthrough
+
+# Architecture Gallery
+
+The following architecture assets demonstrate how the platform enables multiple business domains to publish governed data products across Azure, AWS, and Databricks.
+
+| Architecture | Description |
+|---------------|-------------|
+| Enterprise Data Mesh | Platform overview |
+| Trading Pipeline | Bronze → Silver → Gold |
+| Domain Onboarding | Platform enablement |
+| Unity Catalog | Governance |
+| CI/CD | Deployment |
+| Data Lineage | End-to-end visibility |
