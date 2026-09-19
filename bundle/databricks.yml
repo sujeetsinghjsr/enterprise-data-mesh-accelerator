@@ -1,0 +1,13 @@
+bundle:
+  name: trading-domain
+
+workspace:
+  host: https://example.cloud.databricks.com
+
+targets:
+
+  development:
+    default: true
+
+  production:
+    mode: production
