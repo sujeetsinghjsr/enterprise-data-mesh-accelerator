@@ -73,16 +73,17 @@ This repository will gradually evolve into a complete enterprise accelerator.
 
 ---
 
-## Repository Structure (Coming Next)
+## Repository Structure
 
 enterprise-data-mesh-accelerator/
 
 - README.md
 - domains/
-- platform/
-- pipelines/
-- governance/
-- terraform/
-- diagrams/
+  - trading/
+  - supply-chain/
+  - finance/
+  - risk/
 
-This project intentionally avoids proprietary Shell assets while demonstrating enterprise-scale implementation patterns inspired by real-world Data Mesh adoption.
+Each domain owns its own future data products.
+
+The platform team provides shared governance and engineering standards rather than owning business data.
