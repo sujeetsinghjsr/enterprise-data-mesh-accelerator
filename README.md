@@ -66,6 +66,32 @@ This repository demonstrates those enterprise implementation patterns.
 - Enterprise workspace structure
 
 ---
+## Enterprise Platform Capabilities
+
+This repository now demonstrates platform engineering patterns beyond pipeline development.
+
+### Data Engineering
+
+- PySpark
+- Delta Lake
+- Bronze Silver Gold
+- Databricks notebooks
+
+### Platform Engineering
+
+- Domain onboarding playbook
+- Terraform provisioning
+- Azure Data Factory template
+- Unity Catalog structure
+
+### Governance
+
+- RBAC access workflow
+- Data Product certification
+- Metadata registration
+- Enterprise documentation
+
+---
 
 ## Project Roadmap
 
