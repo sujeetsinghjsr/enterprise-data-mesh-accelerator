@@ -22,3 +22,17 @@ Multiple downstream teams require trusted datasets.
 - Executive Reporting
 
 Instead of building independent pipelines, the domain adopts a shared enterprise platform.
+
+---
+
+# Repository Navigation
+
+| Section | Purpose |
+|----------|----------|
+| domains/ | Business ownership |
+| pipelines/ | Data Engineering |
+| databricks/ | Platform implementation |
+| governance/ | Enterprise controls |
+| terraform/ | Infrastructure |
+| playbooks/ | Domain onboarding |
+| case-study/ | Business delivery |
