@@ -19,3 +19,29 @@ trading-domain/
 3. Gold Publication
 
 This mirrors enterprise deployment patterns used by platform engineering teams.
+
+## Unity Catalog Structure
+
+Enterprise environments organize assets using a three-level hierarchy.
+
+Catalog
+
+↓
+
+Schema
+
+↓
+
+Tables
+
+For this Trading domain:
+
+| Layer | Example |
+|---------|----------|
+| Catalog | trading_prod |
+| Schema | trading |
+| Bronze Table | trade_execution_bronze |
+| Silver Table | trade_execution_silver |
+| Gold Table | trade_analytics_gold |
+
+This approach allows multiple business domains to share one platform while maintaining isolated ownership.
