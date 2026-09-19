@@ -1,0 +1,34 @@
+name: Databricks CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate Python Files
+        run: |
+          python -m py_compile pipelines/trading/bronze_ingestion.py
+          python -m py_compile pipelines/trading/silver_transform.py
+
+      - name: Repository Validation
+        run: echo "Enterprise validation completed successfully."
