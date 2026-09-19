@@ -134,3 +134,18 @@ enterprise-data-mesh-accelerator/
 Each domain owns its own future data products.
 
 The platform team provides shared governance and engineering standards rather than owning business data.
+
+---
+
+# Enterprise Case Study
+
+A complete end-to-end implementation is documented inside the `case-study` folder.
+
+The case study demonstrates:
+
+- Business requirements
+- Architecture decisions
+- Platform onboarding
+- Governance
+- Success metrics
+- Interview walkthrough
