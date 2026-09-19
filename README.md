@@ -53,6 +53,16 @@ This repository demonstrates those enterprise implementation patterns.
 | CI/CD | GitHub Actions |
 
 ---
+## Implemented Data Engineering Features
+
+- Trading domain with realistic trade data
+- PySpark Bronze ingestion pipeline
+- Delta Lake output
+- Partitioned storage
+- Audit timestamp generation
+- Enterprise Lakehouse architecture
+
+---
 
 ## Project Roadmap
 
