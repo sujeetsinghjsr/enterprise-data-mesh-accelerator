@@ -14,3 +14,16 @@ In this reference implementation, each business domain owns its own data product
 | Risk | Risk calculations and exposure |
 
 Each domain will later publish its own Bronze, Silver, and Gold data products.
+
+<img width="614" height="386" alt="Screenshot 2026-09-19 at 1 36 41 PM" src="https://github.com/user-attachments/assets/10a8c547-8ba0-4415-b4df-3952ba0b1826" />
+
+## Domain Ownership Model
+
+Instead of sending all data to one centralized engineering team, each business domain owns:
+
+- its own pipelines,
+- its own data quality,
+- its own documentation,
+- and its own published data products.
+
+The platform team provides reusable capabilities such as governance, infrastructure, and security.
