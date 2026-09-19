@@ -26,3 +26,30 @@ Databricks Asset Bundle
 ↓
 
 Workspace
+
+
+## Enterprise Deployment Architecture
+
+Deployment follows this sequence:
+
+Developer
+
+↓
+
+GitHub Repository
+
+↓
+
+GitHub Actions
+
+↓
+
+Databricks Asset Bundle
+
+↓
+
+Development Workspace
+
+↓
+
+Production Workspace
