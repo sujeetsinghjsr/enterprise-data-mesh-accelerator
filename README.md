@@ -84,12 +84,20 @@ This repository now demonstrates platform engineering patterns beyond pipeline d
 - Azure Data Factory template
 - Unity Catalog structure
 
+### DevOps
+
+- GitHub Actions
+- Databricks Asset Bundle
+- Environment-based deployment
+- Automated testing
+
 ### Governance
 
 - RBAC access workflow
 - Data Product certification
 - Metadata registration
 - Enterprise documentation
+- Certification workflow
 
 ---
 
