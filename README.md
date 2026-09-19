@@ -1,5 +1,12 @@
 # Enterprise Data Mesh Accelerator
 
+![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-red)
+![Azure](https://img.shields.io/badge/Azure-Data%20Engineering-blue)
+![AWS](https://img.shields.io/badge/AWS-Multi--Cloud-orange)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![PySpark](https://img.shields.io/badge/PySpark-ETL-yellow)
+![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-black)
+
 > Enterprise-scale Data Mesh reference implementation inspired by real-world platform enablement across Databricks, Azure, and AWS.
 
 ![Enterprise Data Mesh Architecture](diagrams/enterprise-data-mesh-reference-implementation.png)
