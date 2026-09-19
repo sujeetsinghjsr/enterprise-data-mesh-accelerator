@@ -1,0 +1,6 @@
+{
+  "environment": "Development",
+  "catalog": "trading_dev",
+  "schema": "trading",
+  "storage": "abfss://dev@storage.dfs.core.windows.net"
+}
