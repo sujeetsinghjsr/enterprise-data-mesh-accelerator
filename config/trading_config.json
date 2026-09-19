@@ -1,0 +1,9 @@
+{
+  "domain": "Trading",
+  "source_path": "domains/trading/sample-data/",
+  "bronze_path": "output/trading/bronze",
+  "silver_path": "output/trading/silver",
+  "gold_path": "output/trading/gold",
+  "watermark_file": "config/trading_watermark.json",
+  "partition_column": "trade_date"
+}
