@@ -40,8 +40,23 @@ This repository now implements a complete Lakehouse pattern.
 - Commodity-level aggregated analytics
 - Business-ready reporting
 
-## Future Pipeline
+## Current Implementation
 
-Bronze → Silver → Gold
+The Trading domain now implements two layers of a Lakehouse architecture.
 
-This domain will later demonstrate Delta Lake transformations using PySpark.
+### Bronze
+
+- Raw trade ingestion
+- Audit timestamps
+- Delta storage
+- Date partitioning
+
+### Silver
+
+- Reusable data quality framework
+- Duplicate removal
+- Cancelled trade filtering
+- Commodity standardization
+- Trade Value calculation
+
+The next step will publish Gold business-ready analytics.
