@@ -12,13 +12,25 @@ This domain is intentionally modeled after enterprise-scale trading organization
 - Execution timestamps
 - Pricing
 
-## Future Data Products
+## Trading Data Product
 
-| Data Product | Status |
-|--------------|---------|
-| Trade Execution | Planned |
-| Trade Analytics | Planned |
-| Daily Trade Summary | Planned |
+This repository now implements a complete Lakehouse pattern.
+
+### Bronze
+
+- Raw trade ingestion
+
+### Silver
+
+- Duplicate removal
+- Lifecycle filtering
+- Standardized commodity names
+- Trade value calculation
+
+### Gold
+
+- Commodity-level aggregated analytics
+- Business-ready reporting
 
 ## Future Pipeline
 
