@@ -1,6 +1,25 @@
 # Enterprise Data Mesh Accelerator
 
-> A cloud-agnostic reference implementation demonstrating how enterprise teams can adopt Data Mesh across Databricks, Azure, and AWS while maintaining governance, metadata, and reusable platform standards.
+> Enterprise-scale Data Mesh reference implementation inspired by real-world platform enablement across Databricks, Azure, and AWS.
+
+![Enterprise Data Mesh Architecture](diagrams/enterprise-data-mesh-reference-implementation.png)
+
+A cloud-agnostic reference implementation demonstrating how enterprise teams can onboard new business domains while maintaining governance, metadata, reusable platform standards, and modern Data Engineering practices.
+
+---
+
+## Key Capabilities
+
+- Databricks Lakehouse
+- PySpark
+- Delta Lake
+- Azure Data Factory
+- AWS
+- Terraform
+- Unity Catalog
+- GitHub Actions
+- Data Mesh
+- Enterprise Governance
 
 ---
 
